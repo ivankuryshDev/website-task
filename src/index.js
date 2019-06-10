@@ -24,7 +24,8 @@ $(document).ready(function(){
           });
     }// End if
   });
-
+  
+  // Scrolling to progress bar element
   $(window).on("scroll", function() {
     var bar = $("#skills .progress-bar"), barPos,	
     windowBtm = $(window).scrollTop() + $(window).height();
